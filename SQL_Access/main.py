@@ -1,7 +1,7 @@
 from datetime import datetime
 
-host = '26.147.79.29'
-database = 'Runtime'
+host = host_ip
+database = 'wwdatabase'
 user = 'wwUser'  # Base user for queries
 password = 'wwUser'  # Base user for queries
 
@@ -20,4 +20,5 @@ SeperatedChart = True
 FormattedTagList = []
 Oneshot = True
 ChartData = []
+
 
