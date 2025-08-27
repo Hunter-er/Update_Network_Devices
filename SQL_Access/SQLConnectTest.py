@@ -7,16 +7,6 @@ def TestHistConnect(SQL_Command):
     user = 'dbuser'  # Local SQL server authentication
     password = 'password'  # Local SQL server authentication
 
-    # user = 'CORPPVT\\svcINSQL_p'  # Admin Access to view update tables
-    # password = 'V360ke05'         # Admin Access to view update tables
-    # user = 'wwUser'      # Base user for queries
-    # password = 'wwUser'  # Base user for queries
-    # user = 'RSB-SQL-01\\admin' # Local windows admin login
-    # password = 'private'       # Local windows admin login
-    # user = 'RSB-SQL-01\\sa'        # Local SQL server default authentication
-    # user = 'RSB-SQL-01\\sqluser'   # Local SQL windows authentication
-    # password = 'fritolay'          # Shared password for sa & sqluser
-
     port = '1434'
 
     try:
@@ -45,4 +35,5 @@ def TestHistConnect(SQL_Command):
 
 # SQL_Test = "SELECT [TechFirstName], [TechLastName], [TrainingTitle], [TrainingDate] FROM dbo.BasicInfo"
 SQL_Test = "SELECT * FROM dbo.BCPForms"
+
 print(TestHistConnect(SQL_Test))
