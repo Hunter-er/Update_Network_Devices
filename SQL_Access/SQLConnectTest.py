@@ -1,9 +1,8 @@
 def TestHistConnect(SQL_Command):
     import pymssql
 
-    host = '26.147.79.69'
-    # database = 'TechTraining'
-    database = 'RosenbergQAForms'
+    host = host_ip
+    database = 'database'
     user = 'dbuser'  # Local SQL server authentication
     password = 'password'  # Local SQL server authentication
 
@@ -37,3 +36,4 @@ def TestHistConnect(SQL_Command):
 SQL_Test = "SELECT * FROM dbo.BCPForms"
 
 print(TestHistConnect(SQL_Test))
+
