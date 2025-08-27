@@ -1,8 +1,6 @@
 from datetime import datetime
 
 host = '26.147.79.29'
-# user = 'CORPPVT\\svcINSQL_p'  # Admin Access to view update tables
-# password = 'V360ke05'         # Admin Access to view update tables
 database = 'Runtime'
 user = 'wwUser'  # Base user for queries
 password = 'wwUser'  # Base user for queries
@@ -22,3 +20,4 @@ SeperatedChart = True
 FormattedTagList = []
 Oneshot = True
 ChartData = []
+
